@@ -1,0 +1,81 @@
+:root {
+    --one: #007379cc;
+    --two: #ffdd00a4;
+    --five: #c96d87;
+    --ten: #572f7a83;
+    
+    --coin: #0051ff;
+    --pach: #ff00ea;
+    --cash: #0ead00;
+    --crazy: #ff0000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+thead {
+    background-color: #c9c9c9;
+}
+
+table, thead, tbody{
+    display: block;
+}
+
+tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: stretch;
+}
+
+
+td,th {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div {
+    height: 100%;
+    width: 100%;
+}
+
+ .one {
+    background-color: var(--one);
+}
+
+ .two {
+    background-color: var(--two);
+}
+
+ .five {
+    background-color: var(--five);
+}
+
+.ten {
+    background-color: var(--ten);
+}
+
+.coin {
+    background-color: var(--coin);
+}
+
+.pach {
+    background-color: var(--pach);
+}
+
+.cash {
+    background-color: var(--cash);
+}
+
+.crazy {
+    background-color: var(--crazy);
+} 
+
+.null {
+    background-color: white;
+}
